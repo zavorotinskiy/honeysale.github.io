@@ -1,0 +1,103 @@
+div {
+    display: block;
+}
+body{
+    background-color: gainsboro;
+}
+#wrapper {
+    width: 890px;
+    margin: 30px auto;
+    background-color: white;
+    
+}
+
+/*Header*/
+#menu {
+    background-color: #F8AA03;
+    
+}
+
+#menu ul {
+    padding-left: 20px;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 19px;
+    line-height: 50px;
+    margin-right: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu a.active, #menu a:hover{
+    text-decoration: underline;
+}
+
+/*content*/
+#right{
+    float: right;
+    width: 240px;
+    padding-right: 20px;
+    padding-left: 8px;
+    
+}
+#right h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#right li{
+    text-align: justify;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#right ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#content{
+    margin-right: 250px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#content h1{
+    margin: 0;
+}
+.price{
+    margin-top: 10px;
+    width: 100%;
+    
+}
+.price th, .price td{
+    border: 1px solid black;
+    text-align: center;
+}
+.price th{
+    background-color: #EBEBEB;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    
+}
+table{
+    display: table;
+   
+    box-sizing: border-box;
+    border-color: grey;
+    border-spacing: 2px;
+}
+#footer{
+   background-color: #F8AA03;
+    line-height: 60px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+.clearfix {
+    clear: both;
+}
